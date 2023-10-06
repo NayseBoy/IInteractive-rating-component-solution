@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body class="body">
+
+  <!-- Rating state start -->
+  <div class="content selecionado">
+    <img class="logo" src="src/images/icon-star.svg"></img>
+
+    <h1 class="content__titulo">Como foi nosso desempenho?</h1>
+
+    <p class="content__texto">Informe-nos como nos saímos com sua solicitação de suporte. Todos os comentários são
+      apreciados para nos ajudar a melhorar nossa oferta!</p>
+
+    <ul class="Rating__satate__list" id="container">
+      <li class="Rating__satate__list__li">
+        <button class="numero-button" data-numero="1" onclick="mudarCor(this)">1</button>
+      </li>
+      <li class="Rating__satate__list__li">
+        <button class="numero-button" data-numero="2" onclick="mudarCor(this)">2</button>
+      </li>
+      <li class="Rating__satate__list__li">
+        <button class="numero-button" data-numero="3" onclick="mudarCor(this)">3</button>
+      </li>
+      <li class="Rating__satate__list__li">
+        <button class="numero-button" data-numero="4" onclick="mudarCor(this)">4</button>
+      </li>
+      <li class="Rating__satate__list__li">
+        <button class="numero-button" data-numero="5" onclick="mudarCor(this)">5</button>
+      </li>
+    </ul>
+
+    <button class="content__submit" id="botao-normal">Enviar</button>
+  </div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+  <div class="content__secundary ">
+
+    <img class="content__thankyou" src="src/images/illustration-thank-you.svg">
+
+    <section class="thank__you__state__result">
+      <p class="text__before">Você selecionou</p>
+      <p class="text__middle" id="resultado"></p>
+      <p class="text__after"> de 5</p>
+    </section>
+
+    <h1 class="content__title">Obrigado!</h1>
+
+    <p class="content__text">Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte,
+      não hesite em entrar em contato!</p>
+
+  </div>
+  <!-- Thank you state end -->
+
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Kaique Silva de Jesus</a>.
+  </footer>
+
+
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>

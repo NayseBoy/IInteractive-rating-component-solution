@@ -1,0 +1,73 @@
+
+
+@media (max-width: 425px) {
+    .body {
+        margin-top: 40%;
+    }
+
+    .content.selecionado {
+        min-height: 54vh;
+        max-width: 360px;
+        border-radius: 25px;
+    }
+
+    .content .logo {
+        height: 20px;
+        width: 20px;
+        margin: 35px 0 30px 35px;
+        padding: 12px;
+    }
+
+    .content__titulo{
+        font-size: 28px;
+        margin-left: 35px;
+    }
+
+    .content__texto {
+        margin: 35px 0 0 35px;
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+
+    .content .Rating__satate__list {
+        margin-top: 40px;
+        gap: 18px;
+    }
+
+    .numero-button {
+        padding: 10px;
+        width: 50px;
+        font-size: 18px;
+    }
+
+    .content__submit {
+        left: 9%;
+        max-width: 84%;
+        margin-top: 25px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .content__secundary.selecionado {
+        min-height: 54vh;
+        max-width: 360px;
+        border-radius: 25px;
+    }
+
+    .thank__you__state__result {
+        max-width: 60%;
+        left: 20%;
+        font-size: 18px;
+    }
+
+    .content__title {
+        margin-top: 20px;
+        font-size: 28px;
+    }
+
+    .content__text {
+        margin-top: 15px;
+        padding: 0 20px;
+        font-size: 16px;
+    }
+}

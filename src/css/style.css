@@ -1,0 +1,219 @@
+
+:root {
+    /* ### Primary */
+
+    --Orange: hsl(25, 97%, 53%);
+
+    /* ### Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsla(216, 12%, 8%, 0.971);
+
+    /* ### Font */
+
+    --overpass: "Overpass";
+}
+
+.body {
+    background-color: var(--Very-Dark-Blue);
+    font-size: 18px;
+    color: var(--White);
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.content {
+    display: none;
+    position: relative;
+    background: rgb(27,33,41);
+    background: linear-gradient(318deg, rgba(13, 17, 23, 0.25) 0%, rgba(37, 45, 55, 0.521) 100%);
+    box-shadow: 0 5px 5px 0  black;
+}
+
+.content.selecionado {
+    min-height: 65vh;
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.content .logo {
+    height: 30px;
+    width: 30px;
+    margin: 38px 0 40px 38px;
+    padding: 15px;
+    border: 2px solid var(--Dark-Blue);
+    background-color: var(--Dark-Blue);
+    border-radius: 50px;
+}
+
+.content__titulo {
+    font-family: var(--overpass), sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--White);
+    margin-left: 38px;
+}
+
+.content__texto {
+    margin: 13px 0 0 38px;
+    font-family: var(--overpass), sans-serif;
+    font-weight: 400;
+    color: var(--Medium-Grey);
+    font-size: 22px;
+    line-height: 1.4em;
+    max-width: 22em;
+}
+
+.content .Rating__satate__list {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 20px;
+}
+
+.numero-button {
+    padding: 15px;
+    border: 2px solid var(--Dark-Blue);
+    background-color: var(--Dark-Blue);
+    color: var(--Light-Grey);
+    width: 60px;
+    border-radius: 50px;
+    font-size: 22px;
+    font-family: var(--overpass), sans-serif;
+    font-weight: 700;
+    align-items: center;
+}
+
+.numero-button:hover {
+    border-color: var(--Light-Grey);
+    background-color: var(--Light-Grey);
+    color: var(--White);
+    cursor: pointer;
+} 
+
+.numero-button:active {
+    background-color: var(--Orange);
+    border-color: var(--Orange);
+}
+
+.highlight {
+    background-color: var(--Orange);
+    border-color: var(--Orange);
+    color: var(--White);
+  }
+
+.content__submit {
+    left: 7%;
+    max-width: 86%;
+    position: relative;
+    margin-top: 40px;
+    height: 60px;
+    background-color: var(--Orange);
+    border-color: var(--Orange);
+    border-radius: 25px;
+
+    color: var(--White);
+    text-transform: uppercase;
+    font-family: var(--overpass), sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.content__submit:hover {
+    cursor: pointer;
+}
+
+.content__submit:active {
+    border-color: var(--White);
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+
+.content__secundary {
+    display: none;
+
+}
+
+.content__secundary.selecionado{
+    display: block;
+    min-height: 60vh;
+    max-width: 580px;
+    border-radius: 40px;
+    position: relative;
+    background: rgb(27,33,41);
+    background: linear-gradient(318deg, rgba(13, 17, 23, 0.25) 0%, rgba(37, 45, 55, 0.521) 100%);
+    box-shadow: 0 5px 5px 0  black;
+    text-align: center;
+}
+
+
+.content__thankyou{
+    width: 20vh;
+    max-width: 100%;
+    margin-top: 70px;
+}
+
+
+
+.thank__you__state__result{ 
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    left: 30%;
+    position: relative;
+    max-width: 40%;
+    padding: 5px 0;
+
+    font-family: var(--overpass), sans-serif;
+    font-weight: 400;
+    color: var(--Orange);
+    border: 2px solid var(--Dark-Blue);
+    border-radius: 25px;
+    background-color: var(--Dark-Blue);
+
+}
+
+.content__title {
+    margin-top: 45px;
+    font-family: var(--overpass), sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--White);
+}
+
+.content__text {
+    text-align: center;
+    margin-top: 18px 0 0 0;
+    padding: 0 75px;
+    max-width: 44vh;
+    
+
+    font-family: var(--overpass), sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: var(--Medium-Grey);
+    line-height: 25px;
+}
+
+.attribution {
+    position: absolute;
+    align-items: center;
+    bottom: 10px;
+    font-size: 11px;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    bottom: 0;
+}
+
