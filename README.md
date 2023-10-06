@@ -25,7 +25,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Meu site de solução]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/interactive-rating-component-using-sass-flexbox-javascript-tTWA4ktnSf))
 - Live Site URL: [Git-hub pages](https://nayseboy.github.io/IInteractive-rating-component-solution/)
 
 ## My process
