@@ -26,7 +26,7 @@ Os usuários devem ser capazes de:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [](https://nayseboy.github.io/IInteractive-rating-component-solution/)
+- Live Site URL: [Git-hub pages](https://nayseboy.github.io/IInteractive-rating-component-solution/)
 
 ## My process
 
